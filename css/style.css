@@ -1,25 +1,16 @@
 .grid-container {
     display: grid;   
     grid-template-columns: 1fr;     
-    grid-template-areas: 
-            "header"
-            "aside-top"
-            "main"
-            "aside-bottom"
-            "footer";
     grid-template-rows: auto;
     justify-content: center;
     background-color: #b1b5be;    
     text-align: center;    
-    /* align-items: center; */
+    align-items: center;
     color: white;
     margin: 10px;
     padding: 10px;
     gap: 10px;
-    /* height: 100vh; */
-
 }
-
 
 .grid-header, .grid-aside-top, .grid-footer, .grid-aside-bottom {
     display: grid;
@@ -136,4 +127,5 @@
     .grid-footer {
         background-color: #e06b26;
         grid-area: 10/ 1/ 11 / 11;
+}
 }
